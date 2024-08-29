@@ -382,7 +382,7 @@ I submitted the aforementioned shell script to the newly-built node:
 `sbatch -w sph-n01 -p 12c128g sleep10.sh`
 
 
-Note: It isn't strictly necessary a node, and it's necessary to specify
+Note: It isn't strictly necessary to specify a node, and it's necessary to specify
 the partition only if it isn't the default (as identified by the
 asterisk beside its name in 'sinfo' output).
 
@@ -553,7 +553,7 @@ output:
 The job completed in a matter of seconds, as expected. I viewed the
 corresponding job-submission script output file:
 
-`cat slurm-2.out`
+`cat slurm-101.out`
 
 output:
 
